@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Ana Emilia"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-01-04 09:08:05 "/>
+        <attribute name="created" value="QW5hIEVtaWxpYTtERVNLVE9QLU03MDg1NUo7MjAyMi0wMS0wNDsiMDk6MDQ6MTcgIjszMDgz"/>
+        <attribute name="edited" value="QW5hIEVtaWxpYTtERVNLVE9QLU03MDg1NUo7MjAyMi0wMS0wNDsiMDk6MDg6MDUgIjsxOzMxOTI="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="nota1, nota2, nota3, nota4, soma" type="Real" array="False" size=""/>
+            <input variable="nota1"/>
+            <input variable="nota2"/>
+            <input variable="nota3"/>
+            <input variable="nota4"/>
+            <assign variable="soma" expression="nota1+nota2+nota3+nota4"/>
+            <output expression="soma" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

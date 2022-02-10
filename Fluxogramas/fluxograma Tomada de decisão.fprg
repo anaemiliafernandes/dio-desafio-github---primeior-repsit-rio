@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Ana Emilia"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-01-04 10:02:46 "/>
+        <attribute name="created" value="QW5hIEVtaWxpYTtERVNLVE9QLU03MDg1NUo7MjAyMi0wMS0wNDsiMDk6NDk6NDggIjszMDk2"/>
+        <attribute name="edited" value="QW5hIEVtaWxpYTtERVNLVE9QLU03MDg1NUo7MjAyMi0wMS0wNDsiMTA6MDI6NDYgIjsxOzMxODM="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="jan, fev, mar, abr, media" type="Real" array="False" size=""/>
+            <input variable="jan"/>
+            <input variable="fev"/>
+            <input variable="mar"/>
+            <input variable="abr"/>
+            <assign variable="media" expression="(jan+fev+mar+abr)/4"/>
+            <if expression="media&gt;=5000">
+                <then>
+                    <output expression="&quot;Parab&#233;ns, voc&#234; atingiu a meta de vendas!&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Que pena! Voc&#234; n&#227;o atingiu a meta e receber&#225; somente 3% de abono&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
